@@ -80,11 +80,13 @@ tabs:
                             default: default
                             type: select
                             display: Layout
+                            localizable: false
                         -
                           handle: services
                           field:
                             type: replicator
                             display: Services
+                            localizable: false
                             sets:
                               new_set_group:
                                 display: 'New Set Group'
@@ -104,6 +106,25 @@ tabs:
                             remove_empty_nodes: false
                             type: bard
                             display: Intro
+                            localizable: false
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                              - h1
+                              - h4
+                              - h5
+                              - alignleft
+                              - aligncenter
+                              - alignright
                         -
                           handle: box_shadow
                           field:
@@ -123,11 +144,13 @@ tabs:
                             default: none
                             type: button_group
                             display: 'Box Shadow'
+                            localizable: false
                         -
                           handle: services
                           field:
                             type: replicator
                             display: Services
+                            localizable: false
                             sets:
                               new_set_group:
                                 display: 'New Set Group'
@@ -165,6 +188,7 @@ tabs:
                             remove_empty_nodes: false
                             type: bard
                             display: 'Bard Content'
+                            localizable: false
                     gallery:
                       display: Gallery
                       icon: media-image-picture-gallery

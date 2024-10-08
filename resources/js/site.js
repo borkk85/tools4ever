@@ -16,3 +16,24 @@ document.addEventListener('DOMContentLoaded', () => {
     setActiveMenuItem();
     window.addEventListener('scroll', setActiveMenuItem);
 });
+
+document.addEventListener('alpine:init', () => {
+    Alpine.data('submenu', () => ({
+        activeItem: null,
+        init() {
+            this.setActiveItemOnScroll();
+            window.addEventListener('scroll', () => this.setActiveItemOnScroll());
+        },
+        setActiveItem(item) {
+            this.activeItem = item;
+        },
+        setActiveItemOnScroll() {
+            const sections = document.querySelectorAll('section[id]');
+            let index = sections.length;
+
+            while(--index && window.scrollY + 100 < sections[index].offsetTop) {}
+
+            this.activeItem = sections[index].id;
+        }
+    }));
+});

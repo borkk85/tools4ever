@@ -1,16 +1,19 @@
-<div class="w-custom mx-auto">
-    <div>
-    <ul class="flex justify-around inline-menu py-4">
-        {{ submenu_items }}
-            <li class="relative">
-                <a 
-                    href="#{{ link }}" 
-                    class="text-gray-medium font-semibold text-base pb-2"
-                >
-                    {{ label }}
-                </a>
-            </li>
-        {{ /submenu_items }}
-    </ul>
+<div x-data="submenu" class="w-full overflow-x-auto">
+    <div class="w-custom mx-auto">
+        <ul class="flex inline-menu px-4 py-4 whitespace-nowrap">
+            {{ submenu_items }}
+                <li class="relative px-4 first:pl-0 last:pr-0">
+                    <a 
+                        href="#{{ link }}" 
+                        @click="setActiveItem('{{ link }}')"
+                        :class="{ 'text-blue-500': activeItem === '{{ link }}' }"
+                        class="text-gray-medium font-semibold text-base pb-2"
+                    >
+                        {{ label }}
+                    </a>
+                </li>
+            {{ /submenu_items }}
+        </ul>
+    </div>
 </div>
-</div>
+

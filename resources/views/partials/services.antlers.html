@@ -2,7 +2,7 @@
     {{ services }}
 
     <div
-        class="mx-auto {{ if !image }} w-1/2 {{/if}} services grid gap-8 grid-cols-1 md:grid-cols-2"
+        class="mx-auto {{ if !image }} w-1/2 {{/if}} services px-4 grid gap-8 grid-cols-1 md:grid-cols-2"
     >
         {{ if image }}
         <div
@@ -12,7 +12,7 @@
                 src="{{ image:url }}"
                 alt="{{ services_title }}"
                 style="min-width: 175px; max-width: {{ image_width ?? 50 }}%;"
-                class="h-auto rounded-lg"
+                class="h-auto"
             />
         </div>
         {{ /if }}

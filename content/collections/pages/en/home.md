@@ -2,7 +2,7 @@
 id: 7beca669-3030-4771-a7bb-4bcc06435184
 origin: home
 updated_by: 947dabea-8c15-43aa-be87-a95ad8706ed9
-updated_at: 1728382483
+updated_at: 1728384436
 content:
   -
     type: set
@@ -138,7 +138,7 @@ content:
             id: m1ywlpb9
             image_position: right
             image_width: 80
-            image_alignement: flex-end
+            image_alignement: center
             image: waarom-helloid-gebruikersvriendelijk.png
             content:
               -
@@ -168,7 +168,7 @@ content:
             id: m1ywmhl0
             image_position: left
             image_width: 80
-            image_alignement: flex-start
+            image_alignement: center
             image: waarom-helloid-veel-kennis-2.png.webp
             content:
               -
@@ -198,7 +198,7 @@ content:
             id: m1ywmzc6
             image_position: right
             image_width: 80
-            image_alignement: flex-end
+            image_alignement: center
             image: waarom-helloid-lage-prijs.png
             content:
               -
@@ -228,7 +228,7 @@ content:
             id: m1ywngln
             image_position: left
             image_width: 80
-            image_alignement: flex-start
+            image_alignement: center
             image: waarom-helloid-moderne-cloud-iam.png
             content:
               -
@@ -258,7 +258,7 @@ content:
             id: m1ywnt4t
             image_position: right
             image_width: 80
-            image_alignement: flex-end
+            image_alignement: center
             image: waarom-helloid-hybride-ondersteuning.png
             content:
               -
@@ -288,7 +288,7 @@ content:
             id: m1ywo5dp
             image_position: left
             image_width: 80
-            image_alignement: flex-start
+            image_alignement: center
             image: waarom-helloid-veilig-cloud-iam.png
             content:
               -
@@ -784,6 +784,8 @@ content:
         intro:
           -
             type: paragraph
+            attrs:
+              textAlign: center
             content:
               -
                 type: text
@@ -794,6 +796,7 @@ content:
           -
             type: heading
             attrs:
+              textAlign: center
               level: 2
             content:
               -

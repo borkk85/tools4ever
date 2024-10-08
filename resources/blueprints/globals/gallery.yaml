@@ -10,6 +10,7 @@ tabs:
               default: '#2a7de1'
               type: color
               display: 'Color Field'
+              localizable: false
           -
             handle: gallery
             field:
@@ -17,3 +18,4 @@ tabs:
               container: assets
               type: assets
               display: Gallery
+              localizable: false
