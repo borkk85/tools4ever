@@ -2,7 +2,7 @@
 id: 7beca669-3030-4771-a7bb-4bcc06435184
 origin: home
 updated_by: 947dabea-8c15-43aa-be87-a95ad8706ed9
-updated_at: 1728376293
+updated_at: 1728382483
 content:
   -
     type: set
@@ -95,15 +95,15 @@ content:
           -
             id: m1yu012y
             number: 700+
-            label: klanten
+            label: clients
           -
             id: m1yu0c5h
             number: '25'
-            label: 'jaar aan ervaring'
+            label: 'years of experience'
           -
             id: m1yu0gb4
             number: 99.99%
-            label: 'behaalde uptime'
+            label: 'uptime achieved'
   -
     type: paragraph
     attrs:
@@ -114,7 +114,7 @@ content:
         marks:
           -
             type: bold
-        text: 'ONZE VERSCHILLEN'
+        text: 'OOUR DISTINCTIONS'
   -
     type: heading
     attrs:
@@ -123,7 +123,10 @@ content:
     content:
       -
         type: text
-        text: 'Ontdek hoe HelloID de standaard zet in Identity & Access Management'
+        marks:
+          -
+            type: bold
+        text: 'Discover How HelloID Sets the Standard in Identity & Access Management'
   -
     type: set
     attrs:
@@ -149,7 +152,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Gebruiksvriendelijk
+                    text: User-friendly
               -
                 type: paragraph
                 attrs:
@@ -157,7 +160,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Bij Tools4ever snappen we dat jouw organisatie uniek is en je snel moet kunnen acteren op veranderingen. Daarom hebben we een platform dat je makkelijk zelf kunt configureren. Met onze gebruiksvriendelijke interface en modulaire opties, zet je snel een systeem op dat helemaal op jouw behoeften is afgestemd. Zo houd je zelf de controle en kun je makkelijk aanpassingen doen wanneer dat nodig is.'
+                    text: 'At Tools4ever, we understand that your organisation is unique and that you need to be able to respond to changes quickly. That’s why we’ve developed a platform that you can easily configure yourself. With our user-friendly interface and modular options, you can quickly set up a system that is fully tailored to your needs. This way, you maintain control and can make adjustments easily when needed.'
             type: service
             enabled: true
             layout_type: grid
@@ -179,7 +182,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Kennis & expertise'
+                    text: 'Knowledge & expertise'
               -
                 type: paragraph
                 attrs:
@@ -187,7 +190,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Als het om expertise gaat, ben je bij Tools4ever aan het juiste adres. Met meer dan 25 jaar ervaring in het veld van Identity & Access Management (IAM), kan ons team met recht zeggen dat ze alles weten van IAM. Deze schat aan kennis delen we maar al te graag met jou. Onze gestandaardiseerde aanpak voor IAM-projecten zorgt ervoor dat het hele proces soepel verloopt, zonder dat iemand of iets over het hoofd wordt gezien. Wil je graag zelf de touwtjes in handen houden? Geen probleem. We bieden je uitgebreide documentatie, kosteloze trainingen, en klantondersteuning om ervoor te zorgen dat je het maximale uit jouw investering haalt.'
+                    text: 'When it comes to expertise, Tools4ever is the right choice. With over 25 years of experience in the field of Identity & Access Management (IAM), our team can confidently say that they know everything about IAM. We are more than happy to share this wealth of knowledge with you. Our standardised approach to IAM projects ensures that the entire process runs smoothly without overlooking anything or anyone. If you prefer to stay in control, no problem. We provide comprehensive documentation, free training and customer support to ensure you get the most out of your investment.'
             type: service
             enabled: true
             layout_type: grid
@@ -209,7 +212,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Transparante prijs'
+                    text: 'Transparent pricing structure'
               -
                 type: paragraph
                 attrs:
@@ -217,45 +220,15 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Waar veel concurrenten in relatief korte tijd zijn opgezet en voornamelijk worden gedreven door aandeelhouders, staat HelloID op een fundament van 25 jaar succes en ervaring in de IAM-sector. Dat maakt ons niet alleen financieel gezond, maar geeft ons ook de vrijheid om een andere focus te hanteren. Wij vinden het namelijk belangrijk dat kwalitatieve IAM-oplossingen toegankelijk zijn voor iedereen. Dat betekent voor ons geen winstmaximalisatie, maar eerlijke prijzen zonder in te leveren op kwaliteit of veiligheid. Zo krijg jij toegang tot topkwaliteit IAM zonder de hoofdprijs te betalen.'
-            type: service
-            enabled: true
-            layout_type: grid
-          -
-            id: m1ywn8xi
-            image_position: left
-            image_width: 80
-            image_alignement: flex-start
-            image: waarom-helloid-nederlandse-marktleider.png
-            content:
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Nederlandse marktleider'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'Tools4ever en HelloID zijn vertrouwde namen in Nederland. Als marktleider hier hebben we een reputatie hoog te houden op het gebied van betrouwbaarheid en klanttevredenheid. Onze lokale aanwezigheid betekent dat we snel kunnen inspelen op jouw behoeften en je altijd kunt rekenen op Nederlandse klantenservice van wereldklasse.'
+                    text: 'While many of our competitors have been established more recently and are primarily driven by shareholders, HelloID has a solid foundation of 25 years of success and experience in the IAM sector. This not only ensures our financial stability but also allows us to maintain a different focus. We prioritise making high-quality IAM solutions accessible to everyone. For us, this means avoiding profit maximisation and instead offering fair pricing without compromising on quality or security. This way, you can access top-quality IAM solutions without breaking the bank.'
             type: service
             enabled: true
             layout_type: grid
           -
             id: m1ywngln
-            image_position: right
+            image_position: left
             image_width: 80
-            image_alignement: flex-end
+            image_alignement: flex-start
             image: waarom-helloid-moderne-cloud-iam.png
             content:
               -
@@ -269,7 +242,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Moderne IAM-oplossing'
+                    text: 'Modernising IAM solutions'
               -
                 type: paragraph
                 attrs:
@@ -277,15 +250,15 @@ content:
                 content:
                   -
                     type: text
-                    text: 'De wereld verandert snel en wij veranderen mee. HelloID gebruikt de nieuwste technologieën en standaarden om je een moderne, schaalbare en toekomstbestendige oplossing te bieden.'
+                    text: 'The world is evolving rapidly, and we are evolving with it. HelloID leverages the latest technologies and adheres to the most up-to-date standards to deliver a modern, scalable and future-proof solution.'
             type: service
             enabled: true
             layout_type: grid
           -
             id: m1ywnt4t
-            image_position: left
+            image_position: right
             image_width: 80
-            image_alignement: flex-start
+            image_alignement: flex-end
             image: waarom-helloid-hybride-ondersteuning.png
             content:
               -
@@ -299,7 +272,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Hybride ondersteuning'
+                    text: 'Hybrid support'
               -
                 type: paragraph
                 attrs:
@@ -307,15 +280,15 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Zit je nog in de overgangsfase naar de cloud? Maak je geen zorgen. Het hybride model van HelloID geeft je de vrijheid om te kiezen welke applicaties je lokaal wilt houden en welke je in de cloud wilt zetten. Dit stelt je in staat om in je eigen tempo te migreren en te zorgen voor een continue vlekkeloze integratie met je bestaande infrastructuur.'
+                    text: 'Are you still in the transitional phase to the cloud? No worries. HelloID’s hybrid model gives you the flexibility to choose which applications you want to keep on-premises and which ones you want to move to the cloud. This allows you to migrate at your own pace and ensure a seamless integration with your existing infrastructure.'
             type: service
             enabled: true
             layout_type: grid
           -
             id: m1ywo5dp
-            image_position: right
+            image_position: left
             image_width: 80
-            image_alignement: flex-end
+            image_alignement: flex-start
             image: waarom-helloid-veilig-cloud-iam.png
             content:
               -
@@ -329,7 +302,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Veilig cloud product'
+                    text: 'Secure cloud product'
               -
                 type: paragraph
                 attrs:
@@ -337,7 +310,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Jouw veiligheid is onze topprioriteit. HelloID is vanaf het begin zo gebouwd dat jouw data optimaal beschermd is. Buiten de gebruikelijke functies als Multi-Factor Authentication en gedetailleerde audit trails, gaat HelloID nog een stap verder met geavanceerde veiligheidsmechanismen. Deze zijn specifiek ontwikkeld om automatische processen te controleren en verstoringen te voorkomen, evenals simulatie-opties om de impact van veranderingen vooraf te beoordelen. Bovendien worden al onze beveiligingsmaatregelen regelmatig getoetst door onafhankelijke audits uitgevoerd door Deloitte Risk Services. Met een ISO 27001 certificaat en een succesvol afgeronde SOC II audit op zak, kun je er zeker van zijn dat jouw gegevens bij ons in veilige handen zijn.'
+                    text: 'Your security is our top priority. HelloID has been built from the ground up with optimal protection of your data in mind. In addition to standard features such as Multi-Factor Authentication and detailed audit trails, HelloID goes the extra mile with advanced security mechanisms. These are specifically designed to monitor automated processes and prevent disruptions, along with simulation options to assess the impact of changes in advance. Furthermore, all our security measures undergo regular independent audits conducted by Deloitte Risk Services. With an ISO 27001 certification and a successfully completed SOC II audit, you can trust that your data is in safe hands with us.'
             type: service
             enabled: true
             layout_type: grid
@@ -387,7 +360,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Documentatie en handleidingen'
+                    text: 'Documentation and manuals'
               -
                 type: paragraph
                 attrs:
@@ -395,7 +368,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'HelloID heeft als standaard softwareoplossing een gebruiksvriendelijke gebruikersinterface en is volledig gedocumenteerd. Of je nu een nieuwe gebruiker bent of een doorgewinterde expert, '
+                    text: 'As a standard software solution, HelloID boasts a user-friendly interface and is fully documented. Whether you’re a new user or a seasoned expert, '
                   -
                     type: text
                     marks:
@@ -403,13 +376,13 @@ content:
                         type: link
                         attrs:
                           href: 'https://docs.helloid.com/'
-                          rel: null
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'ons naslagwerk'
+                    text: 'our reference materials'
                   -
                     type: text
-                    text: ' helpt je met alle functionaliteiten. Zo kun je zelfstandig wijzigingen doorvoeren en het platform naar jouw hand zetten.'
+                    text: ' guide you through all the functionalities. This empowers you to make changes independently and tailor the platform to your needs.'
             type: service
             enabled: true
           -
@@ -430,7 +403,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Kosteloze trainingen en certificeringen'
+                    text: 'Free training and certifications'
               -
                 type: paragraph
                 attrs:
@@ -438,21 +411,21 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Investeren in kennis vinden we essentieel. Daarom bieden we '
+                    text: 'We place great importance on investing in knowledge. That’s why we offer '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.tools4ever.nl/resources/helloid-fundamentals-trainingen/'
-                          rel: null
+                          href: 'https://www.tools4ever.co.uk/resources/helloid-fundamentals-training/'
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'kosteloze, vrijblijvende trainingen in HelloID'
+                    text: 'free, optional training sessions for HelloID'
                   -
                     type: text
-                    text: '. Met al meer dan 1.000 gecertificeerde personen in Nederland alleen, zorgen we ervoor dat je alle nodige kennis en vaardigheden opdoet om HelloID optimaal te benutten.'
+                    text: '. With over 1,000 certified individuals worldwide, we ensure that you acquire all the necessary knowledge and skills to maximise the benefits of HelloID.'
             type: service
             enabled: true
           -
@@ -463,13 +436,36 @@ content:
             image: icon-online-community-150x150.png
             content:
               -
-                type: paragraph
+                type: heading
                 attrs:
-                  textAlign: left
+                  textAlign: center
+                  level: 3
                 content:
                   -
                     type: text
-                    text: 'We geloven in de kracht van samenwerking en kennisdeling. Daarom hebben we '
+                    marks:
+                      -
+                        type: bold
+                    text: Online
+                  -
+                    type: hardBreak
+                    marks:
+                      -
+                        type: bold
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: community
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'We strongly believe in the value of collaboration and knowledge sharing. As a result, we’ve established an '
                   -
                     type: text
                     marks:
@@ -477,13 +473,13 @@ content:
                         type: link
                         attrs:
                           href: 'https://forum.helloid.com/'
-                          rel: null
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'een online community'
+                    text: 'online community'
                   -
                     type: text
-                    text: ' waar klanten en partners discussies kunnen voeren, tips kunnen delen en best practices kunnen uitwisselen. Deze community is gratis, openbaar, en dient als aanvulling op onze standaard support.'
+                    text: ' where both customers and partners can engage in discussions, share valuable tips and exchange best practices. This community is open, free of charge and serves as a valuable addition to our standard support services.'
             type: service
             enabled: true
           -
@@ -504,7 +500,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Publieke
+                    text: Public
                   -
                     type: hardBreak
                     marks:
@@ -523,21 +519,21 @@ content:
                 content:
                   -
                     type: text
-                    text: 'De wereld van applicaties is divers en steeds veranderend. Daarom ontwikkelen we '
+                    text: 'The world of applications is diverse and constantly evolving. That’s why we '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.tools4ever.nl/connectoren/'
-                          rel: null
+                          href: 'https://www.tools4ever.co.uk/integrations/'
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'voortdurend nieuwe connectoren'
+                    text: 'continuously develop new connectors'
                   -
                     type: text
-                    text: ' die we in onze openbare GitHub repository plaatsen. Elk van deze connectoren komt met een handleiding, zodat je eenvoudig de controle houdt over de gebruikersaccounts en -rechten in al je applicaties.'
+                    text: ' which we share in our public GitHub repository. Each of these connectors comes with a manual, making it easy for you to maintain control over user accounts and permissions across all your applications.'
             type: service
             enabled: true
           -
@@ -558,7 +554,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Transparant prijsmodel & Pay-as-you-Go (PAYG)'
+                    text: 'Transparent pricing model & Pay-as-you-Go (PAYG)'
               -
                 type: paragraph
                 attrs:
@@ -566,21 +562,21 @@ content:
                 content:
                   -
                     type: text
-                    text: 'We hanteren een '
+                    text: 'We adhere to a '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.tools4ever.nl/platform/modules-prijzen/'
-                          rel: null
+                          href: 'https://www.tools4ever.co.uk/platform/modules-prices/'
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'duidelijk en eerlijk prijsmodel'
+                    text: 'clear and honest pricing model'
                   -
                     type: text
-                    text: ', zonder verborgen kosten. Met ons Pay-as-you-Go-model heb je de flexibiliteit om het gebruik van HelloID te schalen naar je actuele behoeften, waardoor je nooit meer betaalt dan nodig is.'
+                    text: ', with no hidden fees. Our Pay-as-you-Go model offers flexibility, allowing you to scale your HelloID usage according to your current needs, ensuring that you only pay for what you use.'
             type: service
             enabled: true
           -
@@ -601,7 +597,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Elastic Reporting en'
+                    text: 'Elastic Reporting and'
                   -
                     type: hardBreak
                     marks:
@@ -620,7 +616,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Met HelloID verwerken wij dagelijks de (persoons)gegevens van honderden organisaties. Door het aanbieden van API’s en Elastic Reporting zorgen we ervoor dat jouw data niet opgesloten zit, zodat je evenveel controle behoudt als je in je eigen omgeving zou hebben.'
+                    text: 'Every day, HelloID processes the data of hundreds of organisations. By providing APIs and Elastic Reporting, we ensure that your data isn’t locked away, granting you the same level of control as you would have in your own environment.'
             type: service
             enabled: true
           -
@@ -641,7 +637,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Kosteloze
+                    text: Free
                   -
                     type: hardBreak
                     marks:
@@ -660,21 +656,21 @@ content:
                 content:
                   -
                     type: text
-                    text: 'We organiseren met regelmaat '
+                    text: 'We regularly host '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.tools4ever.nl/events/'
-                          rel: null
+                          href: 'https://www.tools4ever.co.uk/events/'
+                          rel: noopener
                           target: _blank
                           title: null
                     text: webinars
                   -
                     type: text
-                    text: ' over actuele thema’s zoals role mining. Deze zijn kosteloos en open voor iedereen, zodat je altijd up-to-date blijft in het dynamische veld van identity en access management. Je kunt dus gemakkelijk je vaardigheden en kennis uitbreiden.'
+                    text: ' covering current topics, such as role mining. These webinars are free and open to everyone, ensuring you stay updated in the dynamic field of identity and access management, allowing you to easily expand your skills and knowledge.'
             type: service
             enabled: true
           -
@@ -695,7 +691,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Maandelijkse
+                    text: Monthly
                   -
                     type: hardBreak
                     marks:
@@ -714,7 +710,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Werk altijd met de meest actuele versie van HelloID dankzij onze maandelijkse, geautomatiseerde updates. Bij elke update bieden we ook een '
+                    text: 'Always work with the latest version of HelloID thanks to our monthly, automated updates. With each update, we also offer a '
                   -
                     type: text
                     marks:
@@ -722,13 +718,10 @@ content:
                         type: link
                         attrs:
                           href: 'https://www.youtube.com/@Tools4everSoftware/streams'
-                          rel: null
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'release webinar'
-                  -
-                    type: text
-                    text: ' aan, waardoor je gemakkelijk op de hoogte blijft van de nieuwste functies en hoe je deze het beste kunt toepassen in jouw organisatie.'
+                    text: 'to keep you informed about the newest features and the best ways to implement them in your organisation.'
             type: service
             enabled: true
           -
@@ -749,7 +742,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Roadmap en feedbackportaal'
+                    text: 'Roadmap and feedback portal'
               -
                 type: paragraph
                 attrs:
@@ -757,7 +750,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Jouw feedback is waardevol voor de continue ontwikkeling van HelloID. '
+                    text: 'Your feedback is valuable to the ongoing development of HelloID. '
                   -
                     type: text
                     marks:
@@ -765,13 +758,13 @@ content:
                         type: link
                         attrs:
                           href: 'https://feedback.helloid.com/'
-                          rel: null
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'Ons feedbackportaal'
+                    text: 'Our feedback portal'
                   -
                     type: text
-                    text: ' en de '
+                    text: ' and '
                   -
                     type: text
                     marks:
@@ -779,13 +772,13 @@ content:
                         type: link
                         attrs:
                           href: 'https://roadmap.helloid.com/'
-                          rel: null
+                          rel: noopener
                           target: _blank
                           title: null
-                    text: 'publieke roadmap'
+                    text: 'public roadmap'
                   -
                     type: text
-                    text: ' zijn laagdrempelige manieren om te zien waar we mee bezig zijn en om zelf input te geven voor toekomstige updates en functies.'
+                    text: ' offer accessible ways to see what we’re working on and to provide input for future updates and features.'
             type: service
             enabled: true
         intro:
@@ -797,7 +790,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'ONS ECOSYSTEEM'
+                text: 'OUR ECOSYSTEM'
           -
             type: heading
             attrs:
@@ -808,7 +801,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Waarom HelloID méér is dan een softwareplatform'
+                text: 'Why HelloID Is More Than Just a Software Platform'
   -
     type: paragraph
     attrs:
@@ -819,7 +812,7 @@ content:
         marks:
           -
             type: bold
-        text: 'ONZE AANPAK'
+        text: 'OUR APPROACH'
   -
     type: heading
     attrs:
@@ -831,7 +824,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Onze toewijding aan jouw succes'
+        text: 'Our Commitment to Your Success'
   -
     type: paragraph
     attrs:
@@ -839,7 +832,7 @@ content:
     content:
       -
         type: text
-        text: 'Bij Tools4ever begrijpen we dat HelloID slechts zo goed is als de waarde die het toevoegt aan jouw organisatie. Daarom staat klanttevredenheid bij ons hoog in het vaandel. We zijn niet alleen gefocust op het leveren van een hoogwaardig product; we zijn er vooral op gericht om een betrouwbare partner voor je te zijn.'
+        text: 'At Tools4ever, we understand that the value of HelloID is determined by the benefits it brings to your organisation. That’s why customer satisfaction is of paramount importance to us. We don’t just aim to provide a high-quality product; our primary focus is to be a dependable partner for you.'
   -
     type: set
     attrs:
@@ -864,7 +857,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Klantfocus
+                    text: Customer-centric
               -
                 type: paragraph
                 attrs:
@@ -872,7 +865,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Onze aanpak is klantgericht, wat betekent dat we actief luisteren naar jouw behoeften, uitdagingen en doelen. We streven ernaar om niet alleen aan je verwachtingen te voldoen, maar om ze te overtreffen. Of het nu gaat om de implementatie, het beheer of de ondersteuning, ons team is toegewijd aan jouw succes.'
+                    text: 'Our approach is customer-centric, meaning we actively listen to your needs, challenges and objectives. Our goal is not just to meet your expectations but to exceed them. Whether we’re talking about implementation, management or support, our team is dedicated to ensuring your success.'
             type: service
             enabled: true
           -
@@ -900,7 +893,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'We nemen klantfeedback uiterst serieus. Via ons feedbackportaal en periodieke check-ins blijven we in nauw contact om te zorgen dat we continu verbeteren. Zo bouwen we aan een langdurige relatie waarin jouw tevredenheid centraal staat.'
+                    text: 'We take customer feedback extremely seriously. Through our feedback portal and periodic check-ins, we maintain close contact to ensure continuous improvement. This helps us build a long-lasting relationship where your satisfaction is at the forefront.'
             type: service
             enabled: true
           -
@@ -920,7 +913,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Flexibiliteit
+                    text: Flexibility
               -
                 type: paragraph
                 attrs:
@@ -928,7 +921,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Elke organisatie is uniek, en we zijn er trots op dat we met de standaard cloudoplossing HelloID toch flexibel genoeg zijn om aan specifieke wensen en eisen te voldoen. Van maatwerkintegraties tot op jouw behoeften afgestemde sessies, we zetten die extra stap om te zorgen dat HelloID perfect past bij wat jij nodig hebt.'
+                    text: 'Every organisation is unique, and we take pride in the fact that, with the standard cloud solution HelloID, we are still flexible enough to meet specific needs and requirements. From custom integrations to sessions tailored to your needs, we go the extra mile to ensure that HelloID aligns perfectly with what you require.'
             type: service
             enabled: true
           -
@@ -948,7 +941,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Toegewijd supportteam'
+                    text: 'Dedicated support team'
               -
                 type: paragraph
                 attrs:
@@ -956,7 +949,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'We hebben een toegewijd supportteam dat klaarstaat om al je vragen te beantwoorden en eventuele problemen snel op te lossen. Ons team is niet alleen technisch onderlegd, maar heeft ook een sterke focus op klantenservice.'
+                    text: 'We have a dedicated support team ready to answer all your questions and swiftly resolve any issues. Our team not only possesses technical expertise but also places a strong emphasis on customer service.'
             type: service
             enabled: true
         layout: flex
@@ -977,7 +970,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'ONZE KLANTEN'
+                text: 'OUR CUSTOMERS'
           -
             type: heading
             attrs:
@@ -989,7 +982,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Vertrouwd door meer dan 700 klanten'
+                text: 'Trusted by Over 1.800 Clients'
           -
             type: paragraph
             attrs:
@@ -997,7 +990,7 @@ content:
             content:
               -
                 type: text
-                text: 'Bij Tools4ever staan onze klanten centraal in alles wat we doen. Wij geloven dat elke organisatie uniek is, met specifieke uitdagingen en behoeften. Daarom zijn we trots op de brede en diverse groep van bedrijven en organisaties die we mogen ondersteunen met onze oplossingen. Van kleine start-ups tot grote multinationals en van zorginstellingen tot overheidsorganisaties: onze klanten zijn even divers als HelloID veelzijdig is.'
+                text: 'At Tools4ever, our customers are at the forefront of everything we do. We believe that every organisation is unique, with specific challenges and needs. Therefore, we take pride in serving a broad and diverse range of businesses and organisations with our solutions. From small startups to large multinational corporations, and from healthcare institutions to government organisations, our customers are as diverse as HelloID’s versatility.'
           -
             type: paragraph
             attrs:
@@ -1009,11 +1002,11 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'https://www.tools4ever.nl/klantverhalen/'
+                      href: 'https://www.tools4ever.co.uk/customers/'
                       rel: null
                       target: null
                       title: null
-                text: 'Bekijk alle klantverhalen'
+                text: 'Read all customer stories'
   -
     type: set
     attrs:
@@ -1037,7 +1030,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'ONZE INTEGRATIES'
+                text: 'OUR INTEGRATIONS'
           -
             type: heading
             attrs:
@@ -1049,7 +1042,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Maximale compatibiliteit, minimale moeite'
+                text: 'Maximum Compatibility, Minimum Effort'
           -
             type: paragraph
             attrs:
@@ -1057,7 +1050,7 @@ content:
             content:
               -
                 type: text
-                text: 'HelloID is ontworpen om naadloos te integreren met je huidige en toekomstige applicatielandschap. Het doel is om automatisch beheer van accounts, rechten en toegang efficiënter en veiliger te maken, ongeacht de complexiteit van je IT-omgeving.'
+                text: 'HelloID is designed to seamlessly integrate with your current and future application landscape. The goal is to make automated management of accounts, permissions and access more efficient and secure, regardless of the complexity of your IT environment.'
   -
     type: set
     attrs:
@@ -1084,7 +1077,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Connectoren
+                    text: Integrations
               -
                 type: paragraph
                 attrs:
@@ -1092,7 +1085,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Waarom zelf het wiel opnieuw uitvinden als je kunt kiezen uit een uitgebreide catalogus van meer dan 200 kant-en-klare connectoren? Of je nu verbindt met cloud-applicaties, on-premise oplossingen of een combinatie van beide, wij hebben de connector die je nodig hebt. Bestaat de connector toch nog niet? Als de applicatie een koppelvlak heeft, dan kunnen we het samen bouwen.'
+                    text: 'Instead of reinventing the wheel, why not select from our comprehensive catalogue featuring over 200 ready-made connectors? Whether you’re integrating with cloud-based applications, on-premise solutions or a mix of both, we’ve got the connector you’re looking for. And if the connector you need doesn’t exist yet, as long as the application has an interface, we can collaborate to create it.'
               -
                 type: paragraph
                 attrs:
@@ -1104,11 +1097,11 @@ content:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.tools4ever.nl/connectoren/'
+                          href: 'https://www.tools4ever.co.uk/integrations/'
                           rel: null
                           target: null
                           title: null
-                    text: 'Bekijk onze connectorencatalogus'
+                    text: 'Explore our integration catalogue'
             type: service
             enabled: true
           -
@@ -1129,7 +1122,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: 'Open standaarden'
+                    text: 'Open standards'
               -
                 type: paragraph
                 attrs:
@@ -1137,7 +1130,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Wij geloven in een open IT-wereld. Daarom ondersteunt HelloID alle belangrijke open standaarden. Dit zorgt voor maximale flexibiliteit en maakt je minder afhankelijk van specifieke leveranciers. Je kunt je IT-omgeving dus naar wens aanpassen, zonder dat je vastzit aan beperkende voorwaarden of technologieën.'
+                    text: 'We are committed to an open IT world, which is why HelloID proudly supports all major open standards. This commitment guarantees you maximum flexibility and reduces your dependency on specific vendors, allowing you to customise your IT environment to suit your needs without being constrained by restrictive terms or technologies.'
             type: service
             enabled: true
   -
@@ -1157,11 +1150,11 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'ONZE PARTNERS'
+                text: 'OUR PARTNERS'
           -
             type: heading
             attrs:
-              textAlign: center
+              textAlign: left
               level: 2
             content:
               -
@@ -1169,7 +1162,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Samen sterker'
+                text: 'Together We Are Stronger'
   -
     type: set
     attrs:
@@ -1195,7 +1188,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Implementatiepartners
+                    text: 'Implementation partners'
               -
                 type: paragraph
                 attrs:
@@ -1203,7 +1196,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Het succes van een project hangt niet alleen af van een sterk product, maar ook van een vlekkeloze implementatie. We bieden verschillende opties als het gaat om de implementatie van onze oplossingen. Je kan ervoor kiezen om HelloID zelf te implementeren, de implementatie uit te laten voeren door één van onze gecertificeerde implementatiepartners, óf door Tools4ever zelf. Onze implementatiepartners zijn zorgvuldig geselecteerd en opgeleid in het gebruik van HelloID om te zorgen voor een soepele en succesvolle implementatie die optimaal is afgestemd op jouw organisatie.'
+                    text: 'A project’s success isn’t just about a top-tier product; it hinges on smooth integration. We present a range of options for deploying our solutions. Whether you wish to roll out HelloID independently, entrust the task to one of our accredited implementation specialists, or even to Tools4ever directly, we’ve got you covered. Our partners are meticulously vetted and trained in using HelloID to promise a seamless and effective deployment tailored for your organisation.'
               -
                 type: paragraph
                 attrs:
@@ -1215,11 +1208,11 @@ content:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.tools4ever.nl/partner-type/implementatiepartners/'
+                          href: 'https://www.tools4ever.co.uk/partner-type/implementation-partners/'
                           rel: null
                           target: null
                           title: null
-                    text: 'Bekijk onze implementatiepartners'
+                    text: 'Explore our implementation partners'
             type: service
             enabled: true
           -
@@ -1239,7 +1232,7 @@ content:
                     marks:
                       -
                         type: bold
-                    text: Technologiepartners
+                    text: 'Technology partners'
               -
                 type: paragraph
                 attrs:
@@ -1247,7 +1240,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'In de snel veranderende technologische landschap van vandaag is integratie alles. Samenwerken met technologische partners stelt ons in staat om een nog completer en robuuster aanbod te bieden. We integreren met een breed scala aan platforms, software en diensten om ervoor te zorgen dat HelloID naadloos aansluit op jouw bestaande en toekomstige IT-ecosysteem.'
+                    text: 'In today’s rapidly evolving tech world, seamless integration is paramount. Joining forces with our technology partners allows us to extend an even more diversified and sturdy suite of services. We’re able to integrate with an extensive variety of platforms, software and services, ensuring that HelloID aligns perfectly with your current and future IT landscape.'
               -
                 type: paragraph
                 attrs:
@@ -1259,11 +1252,11 @@ content:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.tools4ever.nl/partner-type/technologiepartners/'
+                          href: 'https://www.tools4ever.co.uk/partner-type/technology-partners/'
                           rel: null
                           target: null
                           title: null
-                    text: 'Bekijk onze technologiepartners'
+                    text: 'Explore our technology partners'
             type: service
             enabled: true
   -

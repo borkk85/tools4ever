@@ -12,6 +12,7 @@ tabs:
               required: true
               validate:
                 - required
+              localizable: true
           -
             handle: content
             field:
@@ -39,6 +40,7 @@ tabs:
                 - table
                 - code
                 - codeblock
+              localizable: true
               sets:
                 content_sections:
                   display: 'Content Sections'
@@ -183,6 +185,7 @@ tabs:
                 center: Center
                 end: Bottom
               default: start
+              localizable: false
           -
             handle: horizontal_alignment
             field:
@@ -193,6 +196,7 @@ tabs:
                 center: Center
                 end: Right
               default: center
+              localizable: false
           -
             handle: text_alignment
             field:
@@ -203,6 +207,7 @@ tabs:
                 center: Center
                 right: Right
               default: left
+              localizable: false
   sidebar:
     display: Sidebar
     sections:
