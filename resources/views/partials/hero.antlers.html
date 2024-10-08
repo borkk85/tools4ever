@@ -1,0 +1,17 @@
+<div
+    class="hero_image w-full lg:w-1/2 flex-1 flex-shrink-0 items-center text-center pr-0 md:pr-8 {{ image_position === 'right' ? 'md:order-1' : 'md:order-2' }}"
+>
+    {{hero_image}}
+    <img
+        src="{{ url }}"
+        alt="{{ alt ?? 'Hero image' }}"
+        class="h-auto mx-auto"
+        style="min-width: 175px; max-width: {{ image_width ?? 50 }}%;" 
+    />
+    {{/hero_image}}
+</div>
+<div
+    class="hero_content w-full lg:w-1/2 flex-1 flex-shrink-0 pl-0 md:pl-8 {{ image_position === 'right' ? 'md:order-2' : 'md:order-1' }}"
+>
+    {{ hero_content }}
+</div>

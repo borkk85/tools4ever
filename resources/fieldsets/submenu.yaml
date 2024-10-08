@@ -1,0 +1,29 @@
+title: Submenu
+fields:
+  -
+    handle: submenu_items
+    field:
+      type: grid
+      display: Submenu Items
+      max_rows: 10
+      min_rows: 1
+      add_row: 'Add Submenu Item'
+      fields:
+        -
+          handle: label
+          field:
+            type: text
+            display: Label
+            width: 50
+        -
+          handle: link
+          field:
+            type: text
+            display: Link (section ID)
+            width: 50
+  -
+    handle: is_sticky
+    field:
+      type: toggle
+      display: Sticky Submenu
+      default: true

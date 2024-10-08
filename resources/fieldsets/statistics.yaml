@@ -1,0 +1,29 @@
+title: Statistics
+fields:
+  -
+    handle: background
+    field:
+      type: text
+      display: 'Background Color (optional)'
+      instructions: 'Enter a hex color code to override the default gradient. Leave empty for default gradient.'
+  -
+    handle: stats
+    field:
+      type: grid
+      display: Statistics
+      max_rows: 5
+      min_rows: 1
+      add_row: 'Add Statistic'
+      fields:
+        -
+          handle: number
+          field:
+            type: text
+            display: Number
+            width: 50
+        -
+          handle: label
+          field:
+            type: text
+            display: Label
+            width: 50

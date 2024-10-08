@@ -1,0 +1,78 @@
+title: 'Service 2'
+fields:
+  -
+    handle: image_position
+    field:
+      options:
+        -
+          key: left
+          value: Left
+        -
+          key: right
+          value: Right
+        -
+          key: top
+          value: Top
+        -
+          key: bottom
+          value: Bottom
+      default: top
+      type: button_group
+      display: 'Image Position'
+  -
+    handle: image_width
+    field:
+      default: 50
+      type: range
+      display: 'Image Width'
+  -
+    handle: image_alignement
+    field:
+      options:
+        -
+          key: flex-start
+          value: Left
+        -
+          key: center
+          value: Center
+        -
+          key: flex-end
+          value: Right
+      default: center
+      type: select
+      display: 'Image Alignment'
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Image
+  -
+    handle: content
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h1
+        - h4
+        - h5
+        - h6
+        - code
+        - codeblock
+        - alignleft
+        - aligncenter
+        - alignright
+        - alignjustify
+      remove_empty_nodes: false
+      type: bard
+      display: Content

@@ -1,0 +1,54 @@
+title: Hero
+fields:
+  -
+    handle: hero_image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: 'Hero Image'
+  -
+    handle: image_position
+    field:
+      options:
+        -
+          key: left
+          value: Left
+        -
+          key: right
+          value: Right
+      type: button_group
+      display: 'Image Position'
+  -
+    handle: image_width
+    field:
+      default: 50
+      type: range
+      display: 'Image Width'
+  -
+    handle: hero_content
+    field:
+      buttons:
+        - h1
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+        - bold
+        - italic
+        - alignleft
+        - aligncenter
+        - alignright
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - code
+        - codeblock
+      remove_empty_nodes: false
+      type: bard
+      display: 'Hero Content'

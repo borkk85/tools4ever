@@ -1,0 +1,19 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: color_field
+            field:
+              default: '#2a7de1'
+              type: color
+              display: 'Color Field'
+          -
+            handle: gallery
+            field:
+              max_files: 12
+              container: assets
+              type: assets
+              display: Gallery

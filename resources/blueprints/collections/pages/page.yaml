@@ -1,0 +1,231 @@
+title: Page
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: Content
+              buttons:
+                - h1
+                - h2
+                - h3
+                - h4
+                - h5
+                - h6
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - alignleft
+                - aligncenter
+                - alignright
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+                - code
+                - codeblock
+              sets:
+                content_sections:
+                  display: 'Content Sections'
+                  sets:
+                    hero_section:
+                      display: 'Hero Section'
+                      icon: home-house
+                      fields:
+                        -
+                          import: hero
+                    submenu_section:
+                      display: 'Submenu Section'
+                      icon: link
+                      fields:
+                        -
+                          import: submenu
+                    stats_section:
+                      display: 'Stats Section'
+                      icon: shopping-store-discount-percent
+                      fields:
+                        -
+                          import: statistics
+                    services_section:
+                      display: 'Services Section'
+                      icon: setting-cog-gear
+                      fields:
+                        -
+                          handle: layout
+                          field:
+                            options:
+                              -
+                                key: flex
+                                value: Flex
+                              -
+                                key: default
+                                value: Default
+                            default: default
+                            type: select
+                            display: Layout
+                        -
+                          handle: services
+                          field:
+                            type: replicator
+                            display: Services
+                            sets:
+                              new_set_group:
+                                display: 'New Set Group'
+                                sets:
+                                  service:
+                                    display: Service
+                                    fields:
+                                      -
+                                        import: service
+                    services_section_2:
+                      display: 'Services Section 2'
+                      icon: setting-cog-gear
+                      fields:
+                        -
+                          handle: intro
+                          field:
+                            remove_empty_nodes: false
+                            type: bard
+                            display: Intro
+                        -
+                          handle: box_shadow
+                          field:
+                            options:
+                              -
+                                key: none
+                                value: None
+                              -
+                                key: small
+                                value: Small
+                              -
+                                key: medium
+                                value: Medium
+                              -
+                                key: large
+                                value: Large
+                            default: none
+                            type: button_group
+                            display: 'Box Shadow'
+                        -
+                          handle: services
+                          field:
+                            type: replicator
+                            display: Services
+                            sets:
+                              new_set_group:
+                                display: 'New Set Group'
+                                sets:
+                                  service:
+                                    display: Service
+                                    fields:
+                                      -
+                                        import: service_2
+                    bard:
+                      display: Bard
+                      fields:
+                        -
+                          handle: bard_content
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                              - h1
+                              - h4
+                              - h5
+                              - h6
+                              - alignleft
+                              - aligncenter
+                              - alignright
+                            remove_empty_nodes: false
+                            type: bard
+                            display: 'Bard Content'
+                    gallery:
+                      display: Gallery
+                      icon: media-image-picture-gallery
+                      fields: {  }
+  layout:
+    display: Layout
+    sections:
+      -
+        display: 'Section Layout'
+        fields:
+          -
+            handle: vertical_alignment
+            field:
+              type: select
+              display: 'Vertical Alignment'
+              options:
+                start: Top
+                center: Center
+                end: Bottom
+              default: start
+          -
+            handle: horizontal_alignment
+            field:
+              type: select
+              display: 'Horizontal Alignment'
+              options:
+                start: Left
+                center: Center
+                end: Right
+              default: center
+          -
+            handle: text_alignment
+            field:
+              type: select
+              display: 'Text Alignment'
+              options:
+                left: Left
+                center: Center
+                right: Right
+              default: left
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true

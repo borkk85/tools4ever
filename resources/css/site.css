@@ -1,0 +1,145 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This is all you. */
+.hero_image {
+    @apply flex flex-col justify-end;
+}
+
+.hero_content > h1 {
+    @apply text-dark mb-4 text-3xl md:text-5xl leading-[50px] md:leading-[70px] font-semibold;
+}
+
+.hero_content > h3 {
+    @apply text-base font-bold text-blue mt-4 mb-2;
+}
+
+.hero_content > p {
+    @apply text-secondary text-base md:text-lg mb-4;
+}
+
+.just_bard > p {
+    @apply text-primary text-sm md:text-base mb-4;
+}
+
+.just_bard > h2 {
+    @apply relative text-2xl md:text-4xl text-secondary font-semibold leading-tight mb-14;
+}
+  
+.just_bard >  h2:after {
+    content: '';
+    @apply absolute left-1/2 transform -translate-x-1/2 mt-6 w-10 h-[7px] bg-[#2a7de1];
+  }
+
+  .just_bard > p > a {
+    @apply inline-block bg-primary text-white px-[22px] py-[9px] border border-transparent rounded-lg font-medium text-center no-underline cursor-pointer select-none transition-all duration-300 ease-in-out;
+  } 
+
+.just_bard > h3 {
+    @apply text-xl md:text-2xl text-primary font-extrabold my-4;
+}
+
+.just_bard > h4 {
+    @apply text-base md:text-lg text-primary font-bold my-4;
+}
+
+.services {
+    @apply text-sm md:text-base text-dark;
+}
+
+.services > .services-content {
+    @apply flex flex-col justify-center;
+}
+
+.services > .services-content > h2 {
+    @apply text-2xl md:text-4xl text-dark font-bold mb-4;
+}
+
+.services > .services-content > h3 {
+    @apply text-base md:text-2xl text-secondary mb-2;
+}
+
+.services > .services-content > p {
+    @apply mb-6;
+}
+
+.services > .services-content > ul {
+    @apply ps-5 space-y-1;
+}
+
+.services > .services-content > ul > li {
+    list-style-image: url("data:image/svg+xml;base64,ICAgICAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICAgICAgICB3aWR0aD0iMTQiCiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0PSIxNCIKICAgICAgICAgICAgICAgICAgICB2aWV3Qm94PSIwIDAgMTQgMTQiCiAgICAgICAgICAgICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgICAgICAgICAgICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgICAgICAgZD0iTTcuMzU5MzggMS4zNTk1TDEyLjk5OTkgNy4wMDAwMUw3LjM1OTM4IDEyLjY0MDUiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZT0iI0ZGMzkwMCIKICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlLXdpZHRoPSIyIgogICAgICAgICAgICAgICAgICAgICAgICBzdHJva2UtbGluZWNhcD0icm91bmQiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZS1saW5lam9pbj0icm91bmQiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgICAgICAgICAgICBkPSJNMTIuOTk5OCA3LjAwMDA5TDEgNy4wMDAwOSIKICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlPSIjRkYzOTAwIgogICAgICAgICAgICAgICAgICAgICAgICBzdHJva2Utd2lkdGg9IjIiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9zdmc+");
+}
+
+.services > .services-content > ul > li > a {
+    @apply text-dark text-sm md:text-base ml-2 hover:text-orange transition-colors;
+}
+
+.services > .services-image {
+    @apply flex flex-col justify-center;
+}
+
+
+/* .hero_content > p > a {
+    @apply hidden md:inline-block items-center text-base md:text-xl font-bold bg-orange  text-neutrals-white px-6 py-3 rounded-md hover:bg-orange-light transition-colors;
+}
+
+.hero_content > p > a::after {
+    content: "";
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyMCAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjQ0MjQgMi4wMDAwMkwxOC4xNTIyIDkuNzA5ODhMMTAuNDQyNCAxNy40MTk3IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMuMDgzOTQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTguMTUyMiA5LjcwOTkzTDEuNzUgOS43MDk5MyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIzLjA4Mzk0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 1em 1em;
+    padding-left: 2rem;
+} */
+
+.customer-list img {
+        width: auto;
+        max-width: 100%;
+        filter: brightness(0) invert(1);
+        max-height: 40px;
+  
+}
+.inline-menu li a {
+    position: relative;
+}
+
+.inline-menu li a:after {
+    content: "";
+    display: block;
+    background-color: #2a7de1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.inline-menu li.active a:after,
+.inline-menu li a:hover:after {
+    transform: scaleX(1);
+}
+
+.stats-section.lightblue_gradient {
+    background: linear-gradient(to right, #e6f2ff, #ffffff);
+}
+
+.stats-section.white {
+    background-color: #ffffff;
+}
+
+.stats-section.gray {
+    background-color: #f8f9fa;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    margin: 24px 0 0;
+    width: 40px;
+    height: 7px;
+    background: #2a7de1;
+}

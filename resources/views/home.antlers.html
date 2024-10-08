@@ -1,0 +1,63 @@
+<div class="flex flex-col my-8">
+    {{ content }} {{if type == "text"}}
+    <div class="home_temp max-w-custom mx-auto px-4 pt-4 md:pt-8 flex flex-col">
+        {{if text}}
+        <div
+            class=" just_bard flex flex-col
+  {{ vertical_alignment == 'center' ? 'items-center' : (vertical_alignment == 'end' ? 'items-end' : 'items-start') }}
+  {{ horizontal_alignment == 'center' ? 'justify-center' : (horizontal_alignment == 'end' ? 'justify-end' : 'justify-start') }}
+  {{ text_alignment == 'center' ? 'text-center' : (text_alignment == 'right' ? 'text-right' : 'text-left') }}
+"
+        >
+            {{ text }}
+        </div>
+        {{/if}}
+    </div>
+    {{ elseif type == "hero_section" }}
+    <section
+        class="max-w-custom mx-auto px-4 py-6 md:py-6 flex flex-col-reverse md:flex-row items-center "
+    >
+        {{ partial:hero }}
+    </section>
+    {{ elseif type == "submenu_section" }}
+    <section
+        class="w-full shadow-custom mx-auto py-3.5 flex bg-white {{ is_sticky ? 'sticky top-0 z-50' : '' }}" 
+        id="submenu-section"
+    >
+        {{ partial:submenu }}
+    </section>
+    {{ elseif type == "stats_section" }}
+    <section
+        class="stats-section w-full px-4 py-6 md:py-16 flex bg-lightblue-gradient" id="stats-section"
+        {{ if background }}style="background: {{ background }};"{{ /if }}
+    >
+        {{ partial:stats }}
+    </section>
+    {{ elseif type == "services_section" }}
+    <section
+    class="max-w-custom mx-auto py-6 md:py-6" id="content-image-1"
+    >
+        {{ partial:services }}
+    </section>
+    {{ elseif type == "services_section_2" }}
+    <section
+    class="w-full mx-auto py-6 md:py-6 bg-lightgray-gradient" id="block-section_3"
+>
+    {{ partial:services2 }}
+    </section>
+    {{ elseif type == "bard" }}
+    <section
+    class="just_bard max-w-custom mx-auto py-6 md:py-6"
+>
+    {{ bard_content }}
+    </section>
+    {{ elseif type == "gallery" }}
+    <section
+    class="max-w-custom w-full mx-auto py-6 md:py-6 " id="block-section_4"
+>
+    {{ partial:gallery }}
+    </section>
+    {{/if}}
+    {{/content}}
+</div>
+

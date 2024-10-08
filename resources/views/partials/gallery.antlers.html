@@ -1,0 +1,9 @@
+<div class="gallery-container rounded-lg" style="background-color: {{ gallery:color_field }};">
+    <div class="mx-auto max-w-screen-xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-8">
+        {{ gallery:gallery }}
+            <div class="customer-list flex justify-center">
+                <img src="{{ url }}" alt="{{ alt }}" class="h-auto max-w-full" />
+            </div>
+        {{ /gallery:gallery }}
+    </div>
+</div>

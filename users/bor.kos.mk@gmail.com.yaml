@@ -1,0 +1,11 @@
+super: true
+name: Borko
+id: 947dabea-8c15-43aa-be87-a95ad8706ed9
+password_hash: $2y$12$ee0juAf1p5cnBgPuqmQIXOiiRjU3TKnbqF2txyON.6rIewGDHdQAu
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
+  assets:
+    assets:
+      per_page: 100
