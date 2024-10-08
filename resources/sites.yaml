@@ -2,8 +2,14 @@ en:
   name: EN
   url: /
   locale: en_US
+  flag: /assets/flags/gb.svg
+  attributes:
+    flag: /assets/flags/gb.svg
 nl:
   name: NL
   url: /nl
   locale: nl_NL
   lang: Nederlands
+  flag: /assets/flags/nl.svg
+  attributes:
+    flag: /assets/flags/nl.svg

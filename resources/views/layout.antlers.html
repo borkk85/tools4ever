@@ -8,6 +8,19 @@
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
     <body class="bg-white font-sans leading-normal text-gray-800">
+        <header class="max-w-custom mx-auto flex items-center justify-center">
+            <ul class="flex items-center justify-center">
+                {{ locales }}
+                    <li class="p-6">
+                        
+                        <a class="text-primary font-semibold" href="{{ permalink }}">
+                            <img src="{{ locale:attributes:flag }}" alt="{{ locale:name }} flag" class="w-6 h-auto mr-2">
+                            {{ locale:name }}
+                        </a>
+                    </li>
+                {{ /locales }}
+                </ul>
+        </header>
 
         {{ template_content }}
 
